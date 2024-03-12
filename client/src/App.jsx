@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Web3 from "web3";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import contractABI from "./abi";
+import { contractABI } from "./abi";
 import Admin from "./Admin";
 import CourseRegistration from "./CourseRegistration";
 
